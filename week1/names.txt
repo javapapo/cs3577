@@ -1,0 +1,12 @@
+# Name, Surname, Date of Birth, Country, City, Gender, 
+
+Paris, Apostolopoulos, 01/07/1980, Greece, Athens, Male
+Dionisis, Dimakopoulos, 01/06/1976, Greece, Patras, Male
+John, Consta, 01/07/1990, UK, London, Male
+Pater, Sellers, 02/06/1956, UK, Manchester, Male
+Frank, Alvarez, 6/07/1990, Spain, Barcelona, Male
+Dale, Garcia, 8/06/1946, Spain, Madrid, Male
+Nicholas, Smith, 12/07/1950, Italy, Rome, Male
+Adil, Sandra, 23/06/1996, India, Araria, Male
+Joel, Bean, 18/07/1987, Australia, Sydney, Male
+Kathrine, Jones, 4/06/1975, Greece, Patras, Female
