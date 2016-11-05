@@ -16,13 +16,16 @@ public class StreamSamples {
 
     public static void main(String[] args) {
 
-        List<Integer> numbers = Arrays.asList(5, 6, 7, 56, 33, 555, 893423, 33, 16, 62, 44);
-        long above100Count = numbers.stream().filter(aNumber -> aNumber > 100).count();
+        List<Integer> numbers =
+                Arrays.asList(5, 6, 7, 56, 33, 555, 893423, 33, 16, 62, 44);
+        long above100Count = numbers.stream()
+                .filter(aNumber -> aNumber > 100)
+                .count();
         System.out.println(above100Count);
 
         List<Integer> decrements = numbers.stream()
                 .filter(aNumber -> aNumber > 100)
-                .map(Math::decrementExact)
+                .map( num -> Math.decrementExact(num))
                 .collect(Collectors.toList());
         System.out.println(decrements);
         System.out.println(numbers);
