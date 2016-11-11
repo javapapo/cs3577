@@ -4,3 +4,7 @@ week1/Iconr
 week2/test/target/classes
 week2/project_structure/target
 week2/lombok/target
+week3/junit1/.idea
+week3/junit2/.idea
+week3/junit2/target
+*.iml
