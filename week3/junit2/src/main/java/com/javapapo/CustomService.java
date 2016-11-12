@@ -25,7 +25,10 @@ public class CustomService {
       result = Optional.of(firstStr);
     } else if (firstStr == null && secondStr == null) {
       throw new IllegalArgumentException("You should not provide 2 null parameters to the method");
+    }else{
+      result = Optional.of(firstStr+secondStr);
     }
+
     return result;
   }
 
