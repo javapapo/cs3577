@@ -10,13 +10,21 @@ public class PersonApplication {
 
     public static void main(String[] args) {
 
-        Person paris = new Person();
-        paris.setAddress("12 essex road");
-        paris.setName("paris");
-
-        SmartPerson smartPerson = SmartPerson.builder()
+        Person paris = Person.builder()
                 .address("12 essex road")
-                .name("paris2")
+                .name("paris")
                 .build();
+
+//                new Person();
+//        paris.setAddress("12 essex road");
+//        paris.setName("paris");
+//
+
+
+        SmartPerson smartPerson =
+                SmartPerson.builder()
+                        .address("12 essex road")
+                        .name("paris2")
+                        .build();
     }
 }

@@ -13,6 +13,7 @@ public class StepDefinitions {
 
     @Given("^I use the userlookup service$")
     public void useTheUserLookUpService() {
+
         service = new UserLookUpService();
     }
 

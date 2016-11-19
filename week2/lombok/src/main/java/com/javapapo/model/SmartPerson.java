@@ -20,5 +20,7 @@ public class SmartPerson {
     private String postcode;
     private String country;
     private String occupation;
+    private String anotherOccupation;
+
 
 }

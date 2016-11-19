@@ -27,6 +27,7 @@ public class CustomServiceTest {
 
   @Before
   public void initTestCase(){
+
     customService= new CustomService();
   }
 
@@ -43,6 +44,8 @@ public class CustomServiceTest {
     Optional<String> result =customService.concatStrings("hello",null);
 
     Assert.assertTrue(result.isPresent());
+
+
     assertThat(result.get(),is(equalTo("hello")));
   }
 
